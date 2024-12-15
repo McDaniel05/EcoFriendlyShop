@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco Friendly</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Add Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+            publicKey: "juhoTTNmHAB8tfwqO",
+        });
+    })();
+    (function(){
+        emailjs.init({
+            publicKey: "4RDnj5RL2NFol2NF7",
+        });
+    })();
+    </script>
+</head>
+
+<body>
+    <section id="header">
+        <div id="message" class="message" style="display: none;"></div>
+        <a href="#"><img src="logo.png" class="logo" alt="Eco Friendly Shop Logo"></a>
+        <nav>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+        <div id="menu-icon" class="fa-solid fa-bars"></div>
+    </section>
+
+    <section id="home">
+        <div class="home-content">
+            <!--<h3>Hi, Enjoy</h3>-->
+            <h2>WELCOME TO OUR</h2>
+            <h1>ECO FRIENDLY SHOP</h1>
+          <!--  <p>In today's world, sustainability is more important than ever, and we're here to help you...</p> -->
+        </div>
+        <div class="home-image">
+            <img src="home pic.jpg" alt="Eco-friendly shop image" />
+        </div>
+    </section>
+    
+
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="products-container"></div>
+
+        <!-- Category 1 -->
+        <h3>Sustainable Packaging</h3>
+        <div class="products-container">
+            <div class="product" id="product-1">
+                <img src="Bottle Packaging.jpg" alt="Category 1 - Product 1">
+                <h3>Bottle Packaging</h3>
+                <p>400.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-2">
+                <img src="Plates Packaging.jpg" alt="Category 1 - Product 2">
+                <h3>Plates Packaging</h3>
+                <p>220.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-3">
+                <img src="coffee packaging.jpg" alt="Category 1 - Product 3">
+                <h3>Coffee Packaging</h3>
+                <p>50.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-4">
+                <img src="Fruit Bag1.jpg" alt="Category 1 - Product 4">
+                <h3>Eco Bag</h3>
+                <p>150.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-5">
+                <img src="Foldable Kraft.jpg" alt="Category 1 - Product 5">
+                <h3>Foldable Kraft</h3>
+                <p>70.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Category 2 -->
+        <h3>Energy-Efficient Products</h3>
+        <div class="products-container">
+            <div class="product" id="product-6">
+                <img src="Censor Light.jpg" alt="Category 2 - Product 1">
+                <h3>Censor Light</h3>
+                <p>1100.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-7">
+                <img src="Wood Ceiling.jpg" alt="Category 2 - Product 2">
+                <h3>Wood Ceiling</h3>
+                <p>5000.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-8">
+                <img src="Wood Fan.jpg" alt="Category 2 - Product 3">
+                <h3>Wood Fan</h3>
+                <p>600.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-9">
+                <img src="Wood LED Lamp.jpg" alt="Category 2 - Product 4">
+                <h3>Wood LED Lamp</h3>
+                <p>800.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-10">
+                <img src="Wooden Table Lamp.jpg" alt="Category 2 - Product 5">
+                <h3>Wooden Tabble Lamp</h3>
+                <p>3000.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Category 3 -->
+        <h3>Natural and Organic Goods</h3>
+        <div class="products-container">
+            <div class="product" id="product-11">
+                <img src="Fruits of Nature Bath.jpg" alt="Category 3 - Product 1">
+                <h3>Fruit Nature Bath</h3>
+                <p>300.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-12">
+                <img src="Honey Soap.jpg" alt="Category 3 - Product 2">
+                <h3>Honey Soap</h3>
+                <p>80.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-13">
+                <img src="Moringa Powder.jpg" alt="Category 3 - Product 3">
+                <h3>Moringa Powder</h3>
+                <p>50.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-14">
+                <img src="Natural Skin Care.jpg" alt="Category 3 - Product 4">
+                <h3>Natural Skin Care</h3>
+                <p>399.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-15">
+                <img src="Avocado Soap.jpg" alt="Category 3 - Product 5">
+                <h3>Avocado Soap</h3>
+                <p>49.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Category 4 -->
+        <h3>Reusable and Zero-Waste Items</h3>
+        <div class="products-container">
+            <div class="product" id="product-16">
+                <img src="Bath Cleaning Tools.jpg" alt="Category 4 - Product 1">
+                <h3>Bath Cleaning Tools</h3>
+                <p>410.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-17">
+                <img src="Honey Stick.jpg" alt="Category 4 - Product 2">
+                <h3>Honey Stick</h3>
+                <p>140.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-18">
+                <img src="Eco Pens.jpg" alt="Category 4 - Product 3">
+                <h3>Eco Pens</h3>
+                <p>45.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-19">
+                <img src="Sponge.jpg" alt="Category 4 - Product 4">
+                <h3>Ecoponge</h3>
+                <p>68.00</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" id="product-20">
+                <img src="Utinsil.jpg" alt="Category 4 - Product 5">
+                <h3>Utensils</h3>
+                <p>180.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <p>Welcome to Eco Friendly Shop! We are dedicated to providing sustainable and eco-friendly products to support a greener future. Our mission is to inspire eco-conscious living by offering high-quality, environmentally-friendly alternatives for everyday needs.</p>
+        <p>From reusable items to biodegradable products, we strive to make sustainable choices accessible and affordable for everyone. Join us in making a positive impact on our planet!</p>
+    </section>
+
+    
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Feel free to reach out with any questions, suggestions, or feedback.</p>
+        <form 
+            id="contact-form" 
+            action="https://api.web3forms.com/submit" 
+            method="POST"
+            onsubmit="handleFormSubmit(event)"
+        >
+            <!-- Web3Forms Required Fields -->
+            <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+            <input type="hidden" name="recaptcha" value="true" />
+            
+            <!-- Form Fields -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    
+        <!-- Success Message -->
+        <p id="success-message" style="display: none; color: green;">Thank you! Your message has been sent successfully.</p>
+    </section>
+    
+    <script>
+        async function handleFormSubmit(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            const form = document.getElementById("contact-form");
+            const successMessage = document.getElementById("success-message");
+    
+            try {
+                // Send form data using Fetch API
+                const response = await fetch(form.action, {
+                    method: "POST",
+                    body: new FormData(form),
+                    headers: {
+                        Accept: "application/json",
+                    },
+                });
+    
+                if (response.ok) {
+                    // Clear form fields
+                    form.reset();
+    
+                    // Show success message
+                    successMessage.style.display = "block";
+    
+                    // Hide the success message after 5 seconds
+                    setTimeout(() => {
+                        successMessage.style.display = "none";
+                    }, 4000); // 5000 milliseconds = 5 seconds
+                } else {
+                    console.error("Form submission failed.");
+                }
+            } catch (error) {
+                console.error("Error submitting the form:", error);
+            }
+        }
+    </script>
+    
+    
+    
+    <section id="cart">
+        <h1>Your Cart</h1>
+        <div id="cart-items">
+            <p>Your cart is currently empty.</p>
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div id="cart-summary">
+            <p>Total: ₱0.00</p>
+            <button id="checkout-button">Proceed to Checkout</button>
+        </div>
+    </section>
+    
+   <!-- Modal for Order Summary -->
+<div id="order-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Order Summary</h2>
+        <div id="order-details">
+            <!-- Order details will be dynamically inserted here -->
+        </div>
+        <h3>Your Details</h3>
+        <form id="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name-order" placeholder="Enter name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email-order" placeholder="Enter Email" required>
+            <label for="address">Address:</label>
+            <input type="text" id="address-order" placeholder="Enter your address" required>
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact-order" placeholder="Enter your contact number" required>
+            <button type="submit">Submit Order</button>
+        </form>
+    </div>
+</div>
+
+   
+  <script src="script.js"></script>
+</body>
+</html>
